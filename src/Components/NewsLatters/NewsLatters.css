@@ -1,0 +1,58 @@
+.newslatters{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 65%;
+    height: 45vh;
+    margin: auto;
+    padding: 0 140px;
+    margin-bottom: 150px;
+    background: linear-gradient(180deg,#fde1ff 0%,#e1ffea22 60%);
+    gap: 30px;
+}
+.newslatters h1{
+    color: #454545;
+    font-size: 55px;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+.newslatters p{
+    color: #454545;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+.newslatters div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: white;
+    width: 730px;
+    height: 70px;
+    border: 1px solid #e3e3e3;
+    border-radius: 80px;
+}
+.newslatters input{
+    border: none;
+    outline: none;
+    color: #616161;
+    width: 500px;
+    font-size: 17px;
+    font-weight: 500;
+    margin-left: 30px;
+}
+.newslatters div button{
+    width: 210px;
+    height: 70px;
+    background: black;
+    color: white;
+    border: 1px solid black;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 80px;
+    transition: 0.3s;
+}
+.newslatters div button:hover{
+    background: white;
+    color: black;
+}
