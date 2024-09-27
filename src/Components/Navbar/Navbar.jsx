@@ -37,7 +37,7 @@ const Navbar = () => {
           }}
         >
 
-          <Link style={{ textDecoration: "none" }} to="/men">
+          <Link style={{ textDecoration: "none" }} to="/mens">
             men
           </Link>{" "}
           {menu === "mens" ? <hr /> : <></>}{" "}
