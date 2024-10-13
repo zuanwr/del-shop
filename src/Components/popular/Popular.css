@@ -24,3 +24,6 @@
 .popular-item img{
     border-radius: 10px;
 }
+.popular-item {
+    font-weight: 500;
+}
