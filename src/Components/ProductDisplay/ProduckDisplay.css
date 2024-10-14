@@ -1,0 +1,95 @@
+.produckdisplay {
+  display: flex;
+  margin: 0 170px;
+}
+.produckdisplay-left {
+  display: flex;
+  gap: 17px;
+}
+.produckdisplay-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.produckdisplay-list img {
+  height: 163px;
+  border-radius: 5px;
+}
+.produckdisplay-main {
+  width: 586px;
+  height: 700px;
+  border-radius: 5px;
+}
+.produckdisplay-right {
+  display: flex;
+  flex-direction: column;
+  margin: 0 70px;
+}
+.produckdisplay-right h1 {
+  font-size: 40;
+  font-weight: 700;
+  color: #3d3d3d;
+}
+.produckdisplay-start {
+  display: flex;
+  align-items: center;
+  margin: 13px;
+  gap: 5px;
+  color: #1c1c1c;
+  font-size: 16px;
+}
+.produckdisplay-price {
+  display: flex;
+  margin: 40px 0;
+  gap: 30px;
+  font-size: 24px;
+  font-weight: 700;
+}
+.produckdisplay-oldprice {
+  color: #818181;
+  text-decoration: line-through;
+}
+.produckdisplay-newprice {
+  color: #ff4141;
+}
+.produckdisplay-size h1 {
+  margin-top: 55px;
+  color: #656565;
+  font-size: 20px;
+  font-weight: 700;
+}
+.produckdisplay-sizes {
+  display: flex;
+  margin: 30px 0;
+  gap: 20px;
+}
+.produckdisplay-sizes div {
+  background: #fbfbfb;
+  border: 1px solid #ebebeb;
+  padding: 15px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.produckdisplay button {
+  background: #ff4141;
+  width: 200px;
+  padding: 20px 40px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  border: 1px solid #ff4141;
+  outline: none;
+  color: white;
+  text-transform: capitalize;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  transition: 0.3s;
+}
+.produckdisplay button:hover {
+  background: white;
+  color: #ff4141;
+}
+.produckdisplay-category span{
+    font-weight: 600;
+    text-transform: capitalize;
+}

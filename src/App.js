@@ -3,7 +3,7 @@ import Navbar from "./Components/Navbar/Navbar";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Shop from "./Pages/Shop";
 import ShopCategory from "./Pages/ShopCategory";
-import Produck from "./Pages/Produck";
+import Product from "./Pages/Produck";
 import Login from "./Pages/Login";
 import Cart from "./Pages/Cart";
 import Footer from "./Components/footer/Footer";
@@ -22,9 +22,9 @@ function App() {
           <Route path = "/mens" element = {<ShopCategory banner = {mens} category = "men" />} />
           <Route path = "/womens" element = {<ShopCategory banner = {women} category = "women" />} />
           <Route path = "/kids" element = {<ShopCategory banner = {kids} category = "kid" />} />
-          <Route path = "/product" element = {<Produck />} />
-          <Route path = ":productId" element = {<Produck />} />
-          <Route />
+            <Route path = "/product" element = {<Product />}>
+              <Route path = ":productId" element = {<Product />} />
+            </Route>
           <Route path = "/login" element = {<Login />} />
           <Route path = "/cart" element = {<Cart />} /> 
          </Routes>
